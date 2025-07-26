@@ -1,3 +1,4 @@
+<img width="1536" height="1024" alt="SCD Golang Application Architecture Overview" src="https://github.com/user-attachments/assets/8c903f24-34d5-4a80-b50b-bed98b6b216c" />
 # ⚙️ SCD Work Trial – Golang Implementation
 
 This repository contains a solution for the **SCD (Slowly Changing Data)** Work Trial using **Golang**, **GORM**, and **SQLite**. The project demonstrates versioned data modeling, business logic separation, and unit test coverage using seeded sample data.
