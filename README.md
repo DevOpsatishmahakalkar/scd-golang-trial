@@ -14,7 +14,6 @@ This repository contains a solution for the **SCD (Slowly Changing Data)** Work 
 - [🧪 How to Run & Test](#-how-to-run--test)
 - [✅ Features Implemented](#-features-implemented)
 - [📸 Loom Video Walkthrough](#-loom-video-walkthrough)
-- [📄 License](#-license)
 
 ---
 
@@ -44,7 +43,6 @@ scd-golang-trial/
 
 
 
-
 🛠️ Tech Stack
 Language: Golang v1.21+
 
@@ -54,7 +52,7 @@ Database: SQLite
 
 Testing: Go's built-in testing package
 
-
+Diagram Tool: Eraser.io
 
 🧱 Architecture Overview
 
@@ -100,25 +98,16 @@ GCC (required for go-sqlite3)
 
 Git
 
-
-
 🧰 Clone the Repository
 
-git clone https://github.com/DevOpsatishmahakalkar/scd-golang-trial.git
+git clone https://github.com/YourUsername/scd-golang-trial.git
 cd scd-golang-trial
-
-
 📦 Install Dependencies
 
 go mod tidy
-
-
- Run the Application
+🚀 Run the Application
 
 go run main.go
-
-
-
 Expected output:
 
 ✅ Latest Jobs for Company 'comp1':
@@ -128,3 +117,13 @@ Expected output:
 💰 Latest Payment Line Items for Job: job_uid_v2
 
 
+✅ Features Implemented
+ GORM model definitions with versioned IDs
+
+ SQLite DB with seed data
+
+ Business logic abstractions to return latest records
+
+ Console output for result visibility
+
+ Unit tests for business logic validation
