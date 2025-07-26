@@ -100,7 +100,7 @@ Git
 
 🧰 Clone the Repository
 
-git clone https://github.com/YourUsername/scd-golang-trial.git
+git clone https://github.com/DevOpsatishmahakalkar/scd-golang-trial.git
 cd scd-golang-trial
 📦 Install Dependencies
 
