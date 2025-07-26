@@ -117,6 +117,15 @@ Expected output:
 {ID:tl1 Version:1 UID:tl_uid_1 Duration:1200 ...}
 💰 Latest Payment Line Items for Job: job_uid_v2
 
+How to Run Unit Tests
+
+go test ./scd
+
+Expected output:
+
+PASS
+ok      scd-golang-trial/scd  0.123s
+
 
 ✅ Features Implemented
  GORM model definitions with versioned IDs
